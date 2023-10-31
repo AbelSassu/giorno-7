@@ -32,7 +32,7 @@ else {
 */
 const numeroEs3 = parseInt(prompt("Inserisci un numero: "))
 const cinque2 = 5
-if(numeroEs3 / cinque2 == 0) {
+if(numeroEs3 % cinque2 == 0) {
 alert("divisibile per 5")
 } 
 else{
@@ -53,7 +53,7 @@ alert(" NON divisibile per 5")
 */
 let totalShoppingCart = parseInt(prompt("Inserisci totale spesa"))
 if (totalShoppingCart > 50){
-alert (`il totale è ${totalShoppingCart}, hai diritto alla spedizione gratuita.`)
+alert (`il totale è ${totalShoppingCart}€, hai diritto alla spedizione gratuita.`)
 } else {
   alert(`il totale è ${totalShoppingCart + 10}, arriva a 50€ per la spedizione gratuita`)
 }
